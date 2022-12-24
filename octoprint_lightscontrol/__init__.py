@@ -736,6 +736,7 @@ class LightsControl(octoprint.plugin.StartupPlugin,
         )
 
 __plugin_name__ = "Lights Control"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
     global __plugin_implementation__
